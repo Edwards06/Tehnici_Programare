@@ -1,1 +1,3 @@
 web-lab/
+*.pyc
+__pycache__/
