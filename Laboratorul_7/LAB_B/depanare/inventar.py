@@ -10,7 +10,7 @@ import argparse
 import json
 
 
-def citeste_tinte(cale)
+def citeste_tinte(cale):
     with open(cale, encoding="utf-8") as f:
         tinte = json.load(f)
     return tinta
