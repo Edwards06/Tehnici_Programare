@@ -19,7 +19,7 @@ def citeste_tinte(cale):
 def port_valid(valoare):
     """Intoarce portul ca int sau None daca nu e un numar."""
     try:
-    return int(valoare)
+        return int(valoare)
     except (TypeError, ValueError):
         return None
 
