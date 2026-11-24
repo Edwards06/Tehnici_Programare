@@ -56,7 +56,7 @@ def salveaza_raport(grupuri, ipuri, prag, cale="raport_inventar.json"):
 def main():
     parser = argparse.ArgumentParser(description="Inventar de tinte")
     parser.add_argument("fisier", help="fisierul JSON cu tinte")
-    parser.add_argument("--prag", default=1024, help="pragul pentru porturi")
+    parser.add_argument("--prag", type=int, default=1024, help="pragul pentru porturi")
     args = parser.parse_args()
 
     tinte = citeste_tinte(args.fisier)
