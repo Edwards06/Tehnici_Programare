@@ -34,6 +34,7 @@ def grupeaza(tinte):
         serviciu = t.get("serviciu", "necunoscut")
         grupuri[serviciu] = []
         grupuri[serviciu].append(port)
+    return grupuri
 
 
 def peste_prag(tinte, prag):
