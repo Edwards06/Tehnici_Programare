@@ -43,7 +43,7 @@ def peste_prag(tinte, prag):
         port = port_valid(t["port"])
         if port is not None and port > prag and t["ip"] not in ipuri:
             ipuri.append(t["ip"])
-        return ipuri
+    return ipuri
 
 
 def salveaza_raport(grupuri, ipuri, prag, cale="raport_inventar.json"):
