@@ -31,7 +31,7 @@ def grupeaza(tinte):
         if port is None:
             print("sar peste", t["ip"], ": port invalid", t["port"])
             continue
-        serviciu = t["serviciu"]
+        serviciu = t.get("serviciu", "necunoscut")
         grupuri[serviciu] = []
         grupuri[serviciu].append(port)
 
