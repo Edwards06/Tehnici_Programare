@@ -1,0 +1,8 @@
+[
+  {"ip": "192.168.56.101", "port": 22, "serviciu": "ssh"},
+  {"ip": "192.168.56.101", "port": 80, "serviciu": "http"},
+  {"ip": "192.168.56.102", "port": 8080, "serviciu": "http"},
+  {"ip": "192.168.56.103", "port": "abc", "serviciu": "http"},
+  {"ip": "192.168.56.103", "port": 3306, "serviciu": "mysql"},
+  {"ip": "192.168.56.104", "port": 5432}
+]
