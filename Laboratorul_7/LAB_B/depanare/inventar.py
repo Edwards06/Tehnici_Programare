@@ -27,7 +27,7 @@ def port_valid(valoare):
 def grupeaza(tinte):
     grupuri = {}
     for t in tinte:
-        port = int(t["port"])
+        port = port_valid(t["port"])
         if port is None:
             print("sar peste", t["ip"], ": port invalid", t["port"])
             continue
